@@ -1,0 +1,93 @@
+/* quiz */
+body {
+	background-image: url("grip.jpg");
+}
+h1{
+	text-align: center;
+	letter-spacing: 0.2em;
+	background-color:rgb(254,191,188);
+	border: 2px solid red;
+	border-radius:5px;
+	letter-spacing: 0.1em;
+	font-family:AR DESTINE;
+	font-size:2.5em;
+	padding: 0.5em 0em 0.5em;
+	text-shadow: red 3px 4px 2px;
+}
+h2{
+	border: 3px groove red;
+	border-radius:10px;
+	font-family:AR JULIAN;
+	font-size: 2em;
+	text-align:center;
+	letter-spacing: 0.2em;
+	margin-bottom:25px;
+	font-style:oblique;
+	background-color:rgb(252,208,129);
+	color:rgb(132,33,28);
+}
+/* more comments in css */
+h3{
+	font-family:AR JULIAN;
+	font-size:1.25em;
+	color:rgb(5,9,116);
+	letter-spacing:0.1em;
+	text-decoration:underline;
+	
+}
+p {
+	font-family: Berlin Sans FB;
+	font-weight: 400;
+	color: rgb(66,51,125);
+	font-size: 1.2em;
+}
+label{
+	color:rgb(132,33,28);
+	font-size:1.22;
+	font-family:AR JULIAN;
+}
+input.button{
+	background-color:rgb(253,249,87);
+	border: 5px double rgb(132,33,28);
+	font-size:1.5em;
+	font-family:AR JULIAN;
+	margin-bottom:70px;
+}
+input.button:hover{
+	border: 5px double rgb(115,115,115);
+	color:rgb(253,249,87);
+	background-color:rgb(132,33,28);
+}
+div.part{
+	background-color:rgb(253,249,87);
+	border: 5px double rgb(132,33,28);
+	padding-left:25px;
+	padding-bottom:15px;
+	border-radius:10px;
+	width:60%;
+	margin:auto;
+	margin-bottom:25px;
+}
+div.button{
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	text-align:center;
+	font-family:AR JULIAN;
+	font-size:1.5em;
+	color:rgb(253,249,87);
+	background-color:rgb(132,33,28);
+	border: 5px double rgb(115,115,115);
+	border-radius:15px;
+	padding: 10px 10px 10px 10px;
+}
+a.fixed{
+	position:fixed;
+	bottom:0;
+	left:42.5%;
+}
+a:hover{
+	color:rgb(115,115,115);
+	border: 5px double rgb(253,249,87);
+}

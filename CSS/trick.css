@@ -1,0 +1,181 @@
+/* trick */
+h1{
+	text-align: center;
+	letter-spacing: 0.2em;
+	background-color:rgb(254,191,188);
+	border: 2px solid red;
+	border-radius:5px;
+	letter-spacing: 0.1em;
+	font-family:AR DESTINE;
+	font-size:2.5em;
+	padding: 0.5em 0em 0.5em;
+	text-shadow: red 3px 4px 2px;
+}
+h2{
+	background-color:rgb(253,249,87);
+	border: 3px groove red;
+	border-radius:10px;
+	font-family:AR JULIAN;
+	font-size: 2em;
+	text-align:center;
+	letter-spacing: 0.2em;
+	color: rgb(5,9,116);
+	width:75%;
+	margin:auto;
+	margin-bottom:25px;
+}
+h2.i{
+	font-style:oblique;
+	background-color:rgb(252,208,129);
+	width:100%;
+	color:rgb(132,33,28);
+}
+h2.d{
+	border:none;
+	text-decoration:underline;
+	letter-spacing:0.05em;
+}
+span{
+	font-size: 1.25em;
+	font-weight:bold;
+	font-family:AR JULIAN;
+	color:rgb(132,33,28);
+}
+ol{
+	list-style-type: upper-roman;
+	list-style-position: inside;
+	font-family:Berlin Sans FB;
+	font-weight: 500;
+	font-size:1.25em;
+	color:rgb(132,33,28);
+}
+ul{
+	font-family:Berlin Sans FB;
+	font-weight: 500;
+	font-size:1.25em;
+	color:rgb(132,33,28);
+}
+ul > li{
+	display:inline;
+	font-size: 1.3em;
+	padding-right:50px;
+	color:rgb(5,9,116);
+}
+dl{
+	list-style-position: inside;
+}
+dt{
+	font-size:1.3em;
+}
+dd{
+	font-family: Berlin Sans FB;
+	font-weight: 450;
+	color: rgb(66,51,125);
+	font-size: 1.25em;
+	padding-bottom: 10px;
+}
+div.part{
+	background-color:rgb(253,249,87);
+	border: 5px double rgb(132,33,28);
+	padding-left:25px;
+	padding-bottom:15px;
+	border-radius:10px;
+	width:60%;
+	margin:auto;
+	margin-bottom:25px;
+}
+div.button{
+	text-align:center;
+}
+p {
+	font-family: Berlin Sans FB;
+	font-weight: 400;
+	line-height:2.0;
+	color: rgb(66,51,125);
+	font-size: 1.25em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+p.single{
+	border: 3px groove red;
+	border-radius:10px;
+	font-weight: 550;
+	font-size:1.5em;
+	text-align:center;
+	width:70%;
+	margin:auto;
+	margin-bottom:25px;
+	background-color:rgb(253,249,87);
+}
+p.par:first-letter {
+	font: 1.75em Berlin Sans FB;
+	color: rgb(34,11,166);
+}
+a{
+	text-decoration:none;
+	text-align:center;
+	font-family:AR JULIAN;
+	font-size:1.5em;
+	color:rgb(253,249,87);
+	background-color:rgb(132,33,28);
+	border: 5px double rgb(115,115,115);
+	border-radius:15px;
+	padding: 10px 10px 10px 10px;
+}
+a.link{
+	border: 2px double rgb(115,115,115);
+	font-size:1.1em;
+	text-align:left;
+}
+a.fixed{
+	position:fixed;
+	bottom:0;
+	left:43%;
+}
+a:hover{
+	color:rgb(115,115,115);
+	border: 5px double rgb(253,249,87);
+}
+table, th, td{
+	border: 3px solid rgb(132,33,28);
+	background-color:rgb(252,208,129);
+	text-align:center;
+}
+caption{
+	border: 3px dashed rgb(55,55,55);
+	padding:10px 0px 10px 0px;
+	background-color:rgb(253,249,87);
+}
+th, td{
+	padding: 5px 0px 5px 0px;
+}
+th{
+	font-weight: 550;
+	font-family: AR JULIAN;
+	color:rgb(132,33,28);
+}
+td{
+	font-family: Berlin Sans FB;
+}
+table{
+	border-collapse: collapse;
+	border: 4px inset red;
+	color: rgb(66,51,125);
+	font-size:1.2em;
+	width:85%;
+	margin:auto;
+	margin-bottom:25px;
+}
+body {
+	background-image: url("grip.jpg");
+}
+img{
+	display: block;
+	margin:auto;
+	margin-bottom:20px;
+	border: 3px solid rgb(132,33,28);
+	border-radius: 10px;
+	width: 45%;
+}
+img.small{
+	margin-bottom:60px;
+}
